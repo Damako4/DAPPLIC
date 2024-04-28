@@ -1,0 +1,26 @@
+.leather-wallet {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid #ced4da;
+}
+
+.wallet-balance p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.wallet-balance p:first-child {
+  font-weight: bold;
+}
